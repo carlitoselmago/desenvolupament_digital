@@ -1,0 +1,62 @@
+body {
+    font-family: 'Courier New', monospace;
+    font-size: 28px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 23px;
+}
+
+.nom_regio {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0px;
+
+}
+
+div {
+    border: solid 1px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.continent {
+    border: 1px dotted grey;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.pais {
+    border-left: 8px solid black;
+    margin-bottom: 40px;
+}
+
+.ciutat {
+    border: solid 2px white;
+    margin: 10px;
+}
+
+.persona {
+    margin: 15px;
+}
+
+#france {
+    background-color: #E67E22;
+}
+
+#espanya {
+    background-color: #E5D9B6;
+}
+
+#barcelona {
+    background-color: #628141;
+}
+
+#barcelona .persona {
+    background-color: white;
+}
+
+#carlos {
+    font-weight: bold;
+}
