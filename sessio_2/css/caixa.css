@@ -1,0 +1,37 @@
+body{
+    background-color: #900737;
+}
+div {
+   /*border: solid 4px rgb(62, 4, 236, 0.5); */
+   padding: 20px;
+   margin: 10px;
+   margin-left: 0px;
+   margin-right: 0px;
+    border-radius: 21px;
+    background: #F2085A;
+    font-size: 28px;
+    font-family: Arial;
+    color:white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+ul{
+    padding-left: 0px;
+}
+li{
+   list-style: none; 
+   color:white;
+   border-bottom: solid 1px;
+   padding: 10px;
+   border-left:solid 4px;
+   margin-bottom: 5px;;
+}
+.par{
+    font-size: 28px;
+}
+
+h1{
+    margin: 0px;
+    font-weight: normal;
+}
