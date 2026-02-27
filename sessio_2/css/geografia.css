@@ -2,6 +2,10 @@ body {
     font-family: 'Courier New', monospace;
     font-size: 28px;
     padding: 20px;
+    background: #1C6EA4;
+background: -moz-linear-gradient(-45deg, #1C6EA4 0%, #2388CB 70%, #144E75 100%);
+background: -webkit-linear-gradient(-45deg, #1C6EA4 0%, #2388CB 70%, #144E75 100%);
+background: linear-gradient(135deg, #1C6EA4 0%, #2388CB 70%, #144E75 100%);
 }
 
 h1 {
