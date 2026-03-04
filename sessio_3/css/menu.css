@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    background-color: rgb(248, 227, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow:0px 10px 12px rgba(0,0,0,0.2);
+}
+
+nav figure {
+    margin: 0px;
+    transition:all 400ms;
+}
+nav #logo:hover{
+    transform: rotate(360deg);
+}
+
+nav ul {
+    padding: 0px;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    padding-right:20px
+}
+
+nav ul li {
+    list-style-type: none;
+    border-bottom: solid 1px;
+    padding: 10px 0px;
+    font-size: 23px;
+}
+nav ul li:hover {
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:inherit;
+    display: block;
+    transition:all 400ms;
+}
+nav ul li a:hover{
+    margin-bottom: 10px;
+}
