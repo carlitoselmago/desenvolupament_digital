@@ -63,6 +63,7 @@ main{
     gap:20px;
     flex-wrap: wrap;
     overflow: scroll;
+    background-color: rgb(41, 52, 57);
 }
 main .cont{
     background-color: rgb(29, 29, 29);
