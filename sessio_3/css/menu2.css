@@ -1,0 +1,39 @@
+body {}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color:black;
+    border: solid 1px black;
+    border-radius: 12px;
+    padding: 5px 10px;
+    display: block;
+    background-color: black;
+    color:white;
+    transition: all 0.2s;
+    font-style: italic;
+}
+li a:hover{
+   background-color: yellow;
+   color:black; 
+   padding-top: 30px;
+}
+#logo {
+    transition: all 2s;
+}
+#logo:hover{
+    transform: rotate(360deg) scale(10);
+}
