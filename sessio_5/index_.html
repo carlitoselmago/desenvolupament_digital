@@ -9,21 +9,12 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="css/estils.css">
     <!-- Open graph https://www.opengraph.xyz/ -->
+ <script src="https://unpkg.com/htmx.org@1.9.12"></script>
 </head>
 
 <body>
     <!-- Aqui posem el contingut -->
-    <h1>Carlos Carbonell 🤖</h1>
-    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExejl6bWFqaWxycXM0a2xyaHFqMjZ0a2VteGtubnN0bmw2emVtY2liYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Tq2tPTrQANKfK/giphy.gif" alt="meme" width="500">
-    <h2>Artista / model / millor persona</h2>
-    <br>
-    <p>La meva <strong>primera</strong> pàgina web</p>
-
-    <nav>
-        <h1><a href="http://google.com">Currículum</a></h1> 
-        <a href="#portfolio">Portfolio</a>
-    </nav>
-    <a href="#">test link</a>
+    <header hx-get="chunks/header.html" hx-trigger="load" ></header>
     <!-- Aquí comença la meva experìencia -->
     <div id="cv">
         <h2>La meva experiència laboral</h2>
