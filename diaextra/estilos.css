@@ -1,0 +1,13 @@
+body{
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+video{
+        width: 80vw;
+    height: 70vh;
+    border-radius: 9999999999999px;
+}
