@@ -4,8 +4,11 @@
         <title>Un menú</title>
         <!-- incluim htmx -->
         <script src="https://unpkg.com/htmx.org@1.9.12"></script>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/base.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header hx-get="parts/header.html" hx-trigger="load" ></header>
@@ -14,8 +17,10 @@
             
 
              <div class="cont">
-                <img src="img/karaoke2.jpg" alt="una imatge">
-                <h3>Contingut 2</h3>
+                <a href="#">
+                    <img src="img/karaoke2.jpg" alt="una imatge">
+                    <h3>Contingut 2</h3>
+                </a>
             </div>
 
              <div class="cont">
