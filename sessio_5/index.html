@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <!-- Aqui posem les metadades -->
+    <title>El meu primer arxiu HTML 🤖</title>
+    <meta nane="description" content="La meva web personal actualitazada diariament">
+    <meta name="theme-color" content="pink">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/estils.css">
+    <!-- Open graph https://www.opengraph.xyz/ -->
+
+    <!-- Incluir la llibreria htmx-->
+    <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+</head>
+
+<body>
+    <!-- atributs per importar un fragment reutilitzable d'html -->
+    <header hx-get="chunks/header.html" hx-trigger="load" ></header>
+  
+   <main>
+    <h2>Inici</h2>
+   </main>
+
+   
+</body>
+
+</html>

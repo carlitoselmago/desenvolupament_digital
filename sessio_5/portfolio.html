@@ -9,22 +9,17 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="css/estils.css">
     <!-- Open graph https://www.opengraph.xyz/ -->
- <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+
+    <!-- Incluir la llibreria htmx-->
+    <script src="https://unpkg.com/htmx.org@1.9.12"></script>
 </head>
 
 <body>
-    <!-- Aqui posem el contingut -->
+    <!-- atributs per importar un fragment reutilitzable d'html -->
     <header hx-get="chunks/header.html" hx-trigger="load" ></header>
-    <!-- Aquí comença la meva experìencia -->
-    <div id="cv">
-        <h2>La meva experiència laboral</h2>
-        <ul>
-            <li>Programador freelance - <span class="any">2005 - Actualitat</span></li>
-            <li>Professor substitut a UB - <span class="any">2026</span></li>
-        </ul>
-    </div>
-
-    <!-- Aquí comença el meu portfolio -->
+  
+    <main>
+      <!-- Aquí comença el meu portfolio -->
     <div id="portfolio">
         <h2>Els meus treballs destacats</h2>
         <ul>
@@ -39,6 +34,7 @@
             </li>
         </ul>
     </div>
+    </main>
 </body>
 
 </html>
