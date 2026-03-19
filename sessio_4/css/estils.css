@@ -7,7 +7,7 @@ body {
     background: #1ee8cd;
     background: linear-gradient(232deg, rgba(30, 232, 205, 1) 0%, rgba(26, 211, 235, 1) 56%, rgba(199, 94, 255, 1) 100%);
     font-family: "Roboto Flex", sans-serif;
-  
+
 }
 
 h1 {
@@ -34,17 +34,19 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  
-  font-optical-sizing: auto;
-  display: none;
+
+    font-optical-sizing: auto;
+    display: none;
 }
-.modal a{
+
+.modal a {
     position: absolute;
     bottom: 40px;
     right: 40px;
 }
-a{
-    color:white;
+
+a {
+    color: white;
     text-decoration: none;
     font-size: 24px;
     background-color: rgb(255, 11, 157);
@@ -52,7 +54,8 @@ a{
     border-radius: 200px;
     box-shadow: 10px 0px 12px rgba(0, 0, 0, 0.2);
 }
-.modal:target{
-   display: block;
-   position: absolute;
+
+.modal:target {
+    display: block;
+    position: absolute;
 }
